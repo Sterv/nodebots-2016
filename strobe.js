@@ -4,7 +4,7 @@ var board = new five.Board();
 var led; 
 
 board.on("ready", function() {
-  console.log('set up')
+  
   var led = new five.Led(13);
 
   // This will grant access to the led instance
